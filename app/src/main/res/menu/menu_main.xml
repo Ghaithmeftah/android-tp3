@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ensio.ia2.tp3_basic_activity.MainActivity" >
+    <item android:title="@string/sms"
+        android:id="@+id/sms">
+        <menu >
+            <item android:title="@string/smsn"
+                android:id="@+id/item_smsN"
+                android:icon="@android:drawable/ic_menu_call" />
+            <item android:title="@string/smsu"
+                android:id="@+id/item_smsU"
+                android:icon="@android:drawable/ic_menu_send" />
+        </menu>
+    </item>
+    <item android:title="@string/appels"
+        android:id="@+id/appel">
+        <menu >
+            <item android:title="@string/apl_n"
+                android:id="@+id/item_appelN"
+                android:icon="@android:drawable/ic_menu_call" />
+            <item android:title="@string/apl_u"
+                android:id="@+id/item_appelU"
+                android:icon="@android:drawable/ic_menu_call" />
+        </menu>
+    </item>
+    <item android:title="@string/Camera"
+        android:id="@+id/item_camera"
+         />
+    <item android:title="@string/Quit"
+        android:id="@+id/item_quit"
+        />
+</menu>
